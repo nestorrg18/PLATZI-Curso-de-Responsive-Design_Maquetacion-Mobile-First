@@ -49,3 +49,50 @@ html {
     font-size: 62.5%;
     font-family: var(--font-sans);
 }
+a {
+    text-decoration: none;
+}
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 32rem;
+    height: 33.4rem;
+    text-align: center;
+}
+header img {
+    width: 15rem;
+    height: 2.4rem;
+    margin-top: 6rem;
+    align-self: center;
+}
+.header--title-container {
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 90rem;
+    height: 21.8rem;
+    margin-top: 4rem;
+    text-align: center;
+    align-self: center;
+}
+/* h1 {
+    margin: 2rem 10%;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    
+}
+.header--title-container p {
+    margin: 2rem 10%;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: var(--just-white);
+}
+.header--button {
+    padding: 1.2rem 1.6rem;
+    width: 23rem;
+    height: 4.8rem;
+} */
