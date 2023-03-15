@@ -155,6 +155,7 @@ main {
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 .main-exchange-container .backgroundImg {
     width: 200px;
@@ -176,7 +177,6 @@ main {
     color: var(--black);
 }
 .main-exchange-container--title p {
-    margin-bottom: 30px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
@@ -186,31 +186,35 @@ main {
 .main-tables-container {
     width: 100%;
     height: auto;
-    padding-top: 40px;
+    padding-top: 18px;
     padding-bottom: 65px;
     text-align: center;
 }
-.main-currency-table {
+.main-currency-table,
+.main-commission-table {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto;
 }
-.currency-table--title {
-    width: 190px;
+.currency-table--title,
+.commission-table--title {
+    width: 166px;
     margin: 0 auto;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     font-size: 1.8rem;
     font-weight: bold;
     color: var(--bitcoin-orange);
     text-align: initial;
 }
-.currency-table--container{
+.currency-table--container,
+.commission-table--container{
     margin-bottom: 16px;
     display: flex;
     justify-content: center;
 }
-.currency-table--container table {
+.currency-table--container table,
+.commission-table--container table {
     background-color: var(--just-white);
     border-collapse: collapse;
     border-radius: 8px;
@@ -246,23 +250,25 @@ td .arrow-icon {
     background-position: center;
     background-repeat: no-repeat;
 }
-.is-red {
-    background-image: url(./assets/icons/trending-down.svg);
-}
-.is-green {
-    background-image: url(./assets/icons/trending-up.svg);
-}
-.currency-table--date p {
+    .is-red {
+        background-image: url(./assets/icons/trending-down.svg);
+    }
+    .is-green {
+        background-image: url(./assets/icons/trending-up.svg);
+    }
+.currency-table--date p,
+.commission-table--date p {
     margin: 0 auto;
     width: 173px;
     height: 31px;
     padding: 8px;
     border-radius: 5px;
     background-color: var(--soft-orange);
+    font-size: 1.2rem;
 }
-.is-commision--title {
-    color: var(--secondary-blue);
-}
-.is-commision--date p {
-    background-color: var(--soft-blue);
-}
+    .is-commission--title {
+        color: var(--secondary-blue);
+    }
+    .is-commission--date p {
+        background-color: var(--soft-blue);
+    }
