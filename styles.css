@@ -40,6 +40,7 @@
     --line-height-inter-small: 1.5rem;
     --line-height-inter-normal: 1.9rem;
 }
+/* ? base */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -52,6 +53,14 @@ html {
 a {
     text-decoration: none;
 }
+.IMG {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* * background: url('./assets/img/bitcoin.svg') center/cover no-repeat;
+    EN UNA SOLA LINEA */
+}
+/* ? Header */
 header {
     position: relative;
     display: flex;
@@ -135,14 +144,14 @@ header img {
     margin-left: 10px;
     background-image: url("./assets/icons/down-arrow.svg");
 }
-/* MAIN */
+/*? MAIN */
 main {
     width: 100%;
     min-width: 320px;
     height: auto;
     background-color: var(--off-white);
 }
-/* section 1 */
+/*? section 1 */
 .main-exchange-container {
     width: 100%;
     height: auto;
@@ -162,12 +171,7 @@ main {
     height: 200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    /* background: url('./assets/img/bitcoin.svg') center/cover no-repeat;
-    EN UNA SOLA LINEA */
     background-image: url("./assets/img/Bitcoin.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .main-exchange-container--title h2 {
     margin-bottom: 30px;
@@ -182,7 +186,7 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
-/* tables */
+/*? tables */
 .main-tables-container {
     width: 100%;
     height: auto;
@@ -246,9 +250,6 @@ td .arrow-icon {
     margin-bottom: 2px;
     width: 12px;
     height: 7px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
     .is-red {
         background-image: url(./assets/icons/trending-down.svg);
@@ -272,3 +273,4 @@ td .arrow-icon {
     .is-commission--date p {
         background-color: var(--soft-blue);
     }
+/*? section 2 */
