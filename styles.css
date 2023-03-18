@@ -274,3 +274,41 @@ td .arrow-icon {
         background-color: var(--soft-blue);
     }
 /*? section 2 */
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 60px 10px 40px;
+    text-align: center;
+    background-color: var(--warm-black);
+}
+.product-detail--batata-logo {
+    position: absolute;
+    top: calc(0% - 12.5px);
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 25px;
+    background-image: url(./assets/icons/batata.svg);
+}
+.product-detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+.product-detail--title h2 {
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.product-detail--title p {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
