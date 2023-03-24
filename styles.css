@@ -215,14 +215,14 @@ main {
 .main-currency-table,
 .main-commission-table {
     scroll-snap-align: center;
-    width: 90%;
-    min-width: 250px;
-    max-width: 900px;
-    margin: 5px 20%;
+    min-width: 70%;
+    max-width: 400px;
+    margin: 5px 15%;
 }
 .currency-table--title,
 .commission-table--title {
-    width: 226px;
+    width: 93%;
+    max-width: 400px;
     margin: 0 auto;
     margin-bottom: 12px;
     font-size: 1.8rem;
@@ -238,13 +238,14 @@ main {
 }
 .currency-table--container table,
 .commission-table--container table {
+    width: 100%;
+    max-width: 400px;
     background-color: var(--just-white);
     border-collapse: collapse;
     border-radius: 8px;
 }
 td {
     border: 1px solid var(--off-white);
-    width: 125px;
     height: 39px;
     padding: 10px 12px;
     font-family: var(--font-inter);
@@ -418,25 +419,16 @@ td .arrow-icon {
 .plans-container--card {
     position: relative;
     scroll-snap-align: center;
-    width: 62.5%;
-    min-width: 200px;
+    /* width: 100%; */
+    min-width: 70%;
     max-width: 300px;
     height: 250px;
-    margin: 8px 0;
+    margin: 8px 15%;
     padding: 30px 20px 24px;
     background-color: var(--just-white);
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border-radius: 8px;
 }
-    .plans-container--card:nth-child(1){
-        margin: 0 30px 0 60px;
-    }
-    .plans-container--card:nth-child(2){
-        margin: 0 30px 0 30px;
-    }
-    .plans-container--card:nth-child(3){
-        margin: 0 60px 0 30px;
-    }
 .plans-container--card .recomended {
     position: absolute;
     top: calc(0% - 15px);
