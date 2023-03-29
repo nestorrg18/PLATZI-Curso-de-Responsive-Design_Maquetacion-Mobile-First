@@ -21,25 +21,6 @@
     /* TIPOGRAFIA */
     --font-sans:'DM Sans', sans-serif;
 	--font-inter:'Inter', sans-serif;
-	--size-300:300;
-	--size-400:400;
-	--size-500:500;
-	--size-700:700;
-    /* FONDOS */
-    --background:#E5E5E5;
-	--linear-gradient:207.8deg, #201E1C 16.69%, #F7931A 100%;
-    /* fonts size */
-    --font-size-sans-small: 1.4rem;
-    --font-size-sans-normal: 1.8rem;
-    --font-size-sans-large: 2.4rem;
-    --font-size-inter-small: 1.2rem;
-    --font-size-inter-normal: 1.6rem;
-    /* line height  */
-    --line-height-sans-small: 1.8rem;
-    --line-height-sans-normal: 2.3rem;
-    --line-height-sans-large: 2.6rem;
-    --line-height-inter-small: 1.5rem;
-    --line-height-inter-normal: 1.9rem;
 }
 /*! base */
 * {
@@ -371,7 +352,7 @@ td .arrow-icon {
     width: 100%;
     min-width: 320px;
     height: 60vh;
-    background-image: url(./assets/img/bitcoinbaby2x.jpg);
+    background-image: url(./assets/img/bitcoinbaby2x-light.jpg);
     text-align: center;
 }
 .bitcoin-img-container h2 {
