@@ -518,6 +518,15 @@ footer {
     .links-container :nth-child(3){
         padding-bottom: 0;
     }
+.Github-link a {
+    font-size: 1.8rem;
+    color: var(--grey) 
+}
+.Github-link a:hover {
+    font-size: 2rem;
+    color: var(--soft-orange) 
+}
+
 .logo-branch-container {
     display: flex;
     align-items: center;
